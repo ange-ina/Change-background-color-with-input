@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+#hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+button{
+    background: lime;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #999;
+    padding: 3px 15px;
+}
